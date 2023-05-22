@@ -176,7 +176,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "## ⛔紧急通知 \n**近期，用户访问量激增，官方大量处理账号，可能导致域名被污染、\n部分地区打不开等情况。为防止找不到我们请加入社群！！**\n## ✔请各位加入社群，谨防失联！！！\n![](https://xcbl.cc/wp-content/uploads/2023/04/20230418172006.jpg)\n## ⭐特别说明\n**老北鼻AI GPT最新域名：[url.ai-node.com](https://url.ai-node.com)\n老北鼻AI导航最新域名：[Lbb.Ai](https://lbb.ai/)\n老北鼻AI 域名发布地址：[Link.Lbbai.com](https://link.lbbai.com)**",
+    BotHello: "## ⛔紧急通知 \n**近期，用户访问量激增，官方大量处理账号，可能导致域名被污染、\n部分地区打不开等情况。为防止找不到我们请加入社群！！**\n## ✔请各位加入社群，谨防失联！！！\n![](https://xcbl.cc/wp-content/uploads/2023/04/20230418172006.jpg)\n## ⭐特别说明\n**老北鼻AI GPT最新域名：[url.ai-node.com](https://url.ai-node.com)\n老北鼻AI导航最新域名：[Lbb.Ai](https://lbb.ai/)\n老北鼻AI 域名发布地址：[Linkss.Lbbai.com](https://linkss.lbbai.com)**",
     Error: "出错了，稍后重试吧,如一直错误请联系管理员.![](https://xcbl.cc/wp-content/uploads/2023/04/20230418172006.jpg)",
     Prompt: {
       History: (content: string) => "这是 老北鼻AI 和用户的历史聊天总结作为前情提要：" + content,
