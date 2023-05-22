@@ -119,12 +119,12 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+        <div className={styles["sidebar-title"]}>老北鼻Ai智能助手</div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          <a className="home_sidebar-sub-title-a__SZNI8" href="https://xcbl.cc/?url=gpt" target="_blank">更多Ai工具:xcbl.cc</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <ChatGptIcon />
+          <img src="https://xcbl.cc/wp-content/uploads/2023/04/54x54.png" />
         </div>
       </div>
 
@@ -174,9 +174,6 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
-              <IconButton icon={<GithubIcon />} shadow />
-            </a>
           </div>
         </div>
         <div>

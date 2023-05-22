@@ -323,9 +323,9 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
-            <div className={styles["main-title"]}>ChatGPT Next Web</div>
+            <div className={styles["main-title"]}>老北鼻Ai智能助手</div>
             <div className={styles["sub-title"]}>
-              github.com/Yidadaa/ChatGPT-Next-Web
+              <a className="home_sidebar-sub-title-a__SZNI8" href="https://xcbl.cc/?url=gpt" target="_blank">更多Ai工具:xcbl.cc</a>
             </div>
             <div className={styles["icons"]}>
               <Avatar avatar={config.avatar}></Avatar>

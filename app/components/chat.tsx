@@ -350,7 +350,7 @@ export function ChatActions(props: {
           className={`${chatStyle["chat-input-action"]} clickable`}
           onClick={props.showPromptModal}
         >
-          <SettingsIcon />
+          <BrainIcon />
         </div>
       )}
 
@@ -367,12 +367,6 @@ export function ChatActions(props: {
         ) : null}
       </div>
 
-      <div
-        className={`${chatStyle["chat-input-action"]} clickable`}
-        onClick={props.showPromptHints}
-      >
-        <PromptIcon />
-      </div>
 
       <div
         className={`${chatStyle["chat-input-action"]} clickable`}

@@ -7,7 +7,7 @@
   background-color: var(--white);
   min-width: 600px;
   min-height: 480px;
-  max-width: 1200px;
+  max-width: 1700px;
 
   display: flex;
   overflow: hidden;
@@ -143,6 +143,10 @@
   font-size: 12px;
   font-weight: 400px;
   animation: slide-in ease 0.3s;
+}
+
+.sidebar-sub-title-a {
+    color: #0ea5e9;
 }
 
 .sidebar-body {
