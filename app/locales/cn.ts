@@ -10,7 +10,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 老北鼻AI 的 ${count} 条对话`,
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -32,7 +32,7 @@ const cn = {
     Send: "发送",
     Config: {
       Reset: "清除记忆",
-      SaveAs: "存为面具",
+      SaveAs: "存为GPT应用",
     },
   },
   Export: {
@@ -41,14 +41,14 @@ const cn = {
     Download: "下载文件",
     Share: "分享到 ShareGPT",
     MessageFromYou: "来自你的消息",
-    MessageFromChatGPT: "来自 ChatGPT 的消息",
+    MessageFromChatGPT: "来自 老北鼻AI 的消息",
     Format: {
       Title: "导出格式",
       SubTitle: "可以导出 Markdown 文本或者 PNG 图片",
     },
     IncludeContext: {
-      Title: "包含面具上下文",
-      SubTitle: "是否在消息中展示面具上下文",
+      Title: "包含GPT应用上下文",
+      SubTitle: "是否在消息中展示GPT应用上下文",
     },
     Steps: {
       Select: "选取",
@@ -111,8 +111,8 @@ const cn = {
       SubTitle: "在预览气泡中预览 Markdown 内容",
     },
     Mask: {
-      Title: "面具启动页",
-      SubTitle: "新建聊天时，展示面具启动页",
+      Title: "GPT应用启动页",
+      SubTitle: "新建聊天时，展示GPT应用启动页",
     },
     Prompt: {
       Disable: {
@@ -176,10 +176,10 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "## ⛔紧急通知 \n**近期，用户访问量激增，官方大量处理账号，可能导致域名被污染、\n部分地区打不开等情况。为防止找不到我们请加入社群！！**\n## ✔请各位加入社群，谨防失联！！！\n![](https://xcbl.cc/wp-content/uploads/2023/04/20230418172006.jpg)\n## ⭐特别说明\n**老北鼻AI GPT最新域名：[url.ai-node.com](https://url.ai-node.com)\n老北鼻AI导航最新域名：[Lbb.Ai](https://lbb.ai/)\n老北鼻AI 域名发布地址：[Link.Lbbai.com](https://link.lbbai.com)**",
+    Error: "出错了，稍后重试吧,如一直错误请联系管理员.![](https://xcbl.cc/wp-content/uploads/2023/04/20230418172006.jpg)",
     Prompt: {
-      History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
+      History: (content: string) => "这是 老北鼻AI 和用户的历史聊天总结作为前情提要：" + content,
       Topic:
         "使用四到五个字直接返回这句话的简要主题，不要解释、不要标点、不要语气词、不要多余文本，如果没有主题，请直接返回“闲聊”",
       Summarize:
@@ -201,11 +201,11 @@ const cn = {
     Name: "插件",
   },
   Mask: {
-    Name: "面具",
+    Name: "GPT应用",
     Page: {
-      Title: "预设角色面具",
+      Title: "预设GPT应用",
       SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Search: "搜索GPT应用",
       Create: "新建",
     },
     Item: {
@@ -218,13 +218,13 @@ const cn = {
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `编辑预设面具 ${readonly ? "（只读）" : ""}`,
+        `编辑预设GPT应用 ${readonly ? "（只读）" : ""}`,
       Download: "下载预设",
       Clone: "克隆预设",
     },
     Config: {
-      Avatar: "角色头像",
-      Name: "角色名称",
+      Avatar: "应用头像",
+      Name: "应用名称",
       Sync: {
         Title: "使用全局设置",
         SubTitle: "当前对话是否使用全局模型设置",
@@ -241,8 +241,8 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
+    Title: "立即使用海量的 ChatGPT 应用",
+    SubTitle: "或在几秒钟内创建属于自己的应用",
     More: "查看全部",
   },
 
