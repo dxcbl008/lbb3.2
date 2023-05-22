@@ -7,8 +7,8 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "ChatGPT Next Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "老北鼻AI智能助手-XCBL.CC",
+  description: "您的私人ChatGPT聊天机器人。",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT Next Web",
+    title: "老北鼻AI智能助手-XCBL.CC",
     statusBarStyle: "default",
   },
 };
@@ -35,6 +35,16 @@ export default function RootLayout({
         <meta name="version" content={buildConfig.commitId} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?415448b475d5767ab10a708c6b7efd29";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();`,
+          }} />
       </head>
       <body>{children}</body>
     </html>
