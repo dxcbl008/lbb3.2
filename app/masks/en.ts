@@ -21,7 +21,7 @@ export const EN_MASKS: BuiltinMask[] = [
       historyMessageCount: 4,
       compressMessageLengthThreshold: 1000,
     },
-    lang: "en",
+    lang: "cn",
     builtin: true,
   },
   {
@@ -61,7 +61,7 @@ export const EN_MASKS: BuiltinMask[] = [
       historyMessageCount: 4,
       compressMessageLengthThreshold: 1000,
     },
-    lang: "en",
+    lang: "cn",
     builtin: true,
   },
   {
@@ -84,7 +84,7 @@ export const EN_MASKS: BuiltinMask[] = [
       historyMessageCount: 4,
       compressMessageLengthThreshold: 1000,
     },
-    lang: "en",
+    lang: "cn",
     builtin: true,
   },
   {
@@ -112,7 +112,7 @@ export const EN_MASKS: BuiltinMask[] = [
       historyMessageCount: 4,
       compressMessageLengthThreshold: 2000,
     },
-    lang: "en",
+    lang: "cn",
     builtin: true,
   },
 ];
