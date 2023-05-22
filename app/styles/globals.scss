@@ -2,46 +2,39 @@
 @import "./window.scss";
 
 @mixin light {
-  --theme: light;
-
-  /* color */
-  --white: white;
-  --black: rgb(48, 48, 48);
-  --gray: rgb(250, 250, 250);
-  --primary: rgb(29, 147, 171);
-  --second: rgb(231, 248, 255);
-  --hover-color: #f3f3f3;
-  --bar-color: rgba(0, 0, 0, 0.1);
-  --theme-color: var(--gray);
-
-  /* shadow */
-  --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);
-  --card-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.05);
-
-  /* stroke */
-  --border-in-light: 1px solid rgb(222, 222, 222);
+    --theme: light;
+    /* color */
+    --white: rgba(255, 255, 255, 0.5);
+    --black: rgb(48, 48, 48);
+    --gray: rgb(250, 250, 250);
+    --primary: rgb(29, 147, 171);
+    --second: rgb(237, 242, 247);
+    --hover-color: #f3f3f3;
+    --bar-color: rgba(0, 0, 0, 0.1);
+    --theme-color: var(--gray);
+    /* shadow */
+    --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);
+    --card-shadow: 0px 2px 4px 0px rgb(0, 0, 0, 0.05);
+    /* stroke */
+    --border-in-light: 1px solid rgb(222, 222, 222);
 }
 
 @mixin dark {
-  --theme: dark;
+    --theme: dark;
+    /* color */
+    --white: rgba(30, 30, 30,0.5);
+    --black: rgb(187, 187, 187);
+    --gray: rgb(21, 21, 21);
+    --primary: rgb(29, 147, 171);
+    --second: rgb(32 35 39);
+    --hover-color: #323232;
+    --bar-color: rgba(255, 255, 255, 0.1);
+    --border-in-light: 1px solid rgba(255, 255, 255, 0.192);
+    --theme-color: var(--gray);
 
-  /* color */
-  --white: rgb(30, 30, 30);
-  --black: rgb(187, 187, 187);
-  --gray: rgb(21, 21, 21);
-  --primary: rgb(29, 147, 171);
-  --second: rgb(27 38 42);
-  --hover-color: #323232;
-
-  --bar-color: rgba(255, 255, 255, 0.1);
-
-  --border-in-light: 1px solid rgba(255, 255, 255, 0.192);
-
-  --theme-color: var(--gray);
-
-  div:not(.no-dark) > svg {
-    filter: invert(0.5);
-  }
+    div:not(.no-dark) > svg {
+        filter: invert(0.5);
+    }
 }
 
 .light {
@@ -94,21 +87,25 @@ html {
 }
 
 body {
-  background-color: var(--gray);
-  color: var(--black);
-  margin: 0;
-  padding: 0;
-  height: var(--full-height);
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  user-select: none;
-  touch-action: pan-x pan-y;
+    background-color: var(--gray);
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+    height: var(--full-height);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    touch-action: pan-x pan-y;
 
-  @media only screen and (max-width: 600px) {
-    background-color: var(--second);
-  }
+    @media only screen and (max-width: 600px) {
+        background-color: var(--second);
+    }
+
+    background-image: url('https://static.xiedaimala.com/xdml/image/5939aa7c-d446-47c4-a9c1-ea1e52b10249/MjAyMy00LTIwLTIwLTE2LTUyLTgx.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 ::-webkit-scrollbar {
@@ -336,10 +333,10 @@ pre {
 }
 
 .user-avatar {
-  height: 30px;
-  min-height: 30px;
-  width: 30px;
-  min-width: 30px;
+  height: 32px;
+  min-height: 32px;
+  width: 32px;
+  min-width: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
