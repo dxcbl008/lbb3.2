@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16" fill="none"><defs><rect id="path_0" x="0" y="0" width="16" height="16" /></defs><g opacity="1" transform="translate(0 0)  rotate(0 8 8)"><mask id="bg-mask-0" fill="white"><use xlink:href="#path_0"></use></mask><g mask="url(#bg-mask-0)" ><path  id="路径 1" style="stroke:#333333; stroke-width:1.3333333333333333; stroke-opacity:1; stroke-dasharray:0 0" transform="translate(1.774903333333333 1.3006199999999999)  rotate(0 6.599664999999999 6.599656666666666)" d="M2.83,13.2L13.2,2.83L10.37,0L0,10.37L0,13.2L2.83,13.2Z " /><path  id="路径 2" style="stroke:#333333; stroke-width:1.3333333333333333; stroke-opacity:1; stroke-dasharray:0 0" transform="translate(9.317366666666667 4.129066666666667)  rotate(0 1.4142166666666658 1.4142166666666665)" d="M0,0L2.83,2.83 " /></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">  <image id="image0" width="16" height="16" x="0" y="0"
+    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElN
+RQfnBB0VJBER0wjXAAAAtUlEQVQoz33RPQrCMBjG8X9RQdzUtH5r/Vo8giBURK9QPEFPo7g76Q2S
+DC7eQnDR2V2c3FxKSUnrM70PvwzJmwJ2PC58uZETF4XPjm02CxQ+AHvCbB7Gs8ORdZrrBoOPQqRZ
+MkraAIVrcg3JOGl9FJ7JVSQTg/U/7qFpmFxBMU1aF00zffcFD5bx3LEZIlacCGJu2cs5IChxJkTT
+ttlBcmWGoEzEK+vAhg933nl/V2RuPNHO8wcRriEj4LIN5gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAy
+My0wNC0yOVQyMTozNjoxNyswODowMLF2RdgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDQtMjlU
+MjE6MzY6MTcrMDg6MDDAK/1kAAAAAElFTkSuQmCC" />
+</svg>
