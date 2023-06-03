@@ -27,6 +27,7 @@ export const CN_MASKS: BuiltinMask[] = [
     },
     lang: "cn",
     builtin: true,
+    hideContext: true,
     },
 
     {
@@ -51,6 +52,7 @@ export const CN_MASKS: BuiltinMask[] = [
         },
         lang: "cn",
         builtin: true,
+        hideContext: true,
     },
   {
     avatar: "1f5bc-fe0f",
