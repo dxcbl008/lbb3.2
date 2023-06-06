@@ -121,10 +121,10 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>老北鼻Ai智能助手</div>
         <div className={styles["sidebar-sub-title"]}>
-          <a className="home_sidebar-sub-title-a__SZNI8" href="https://xcbl.cc/?url=gpt" target="_blank">更多Ai工具:xcbl.cc</a>
+          <a className="home_sidebar-sub-title-a__SZNI8" href="https://lbbai.com/?url=gpt" target="_blank">更多Ai工具:lbbai.com</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <img src="https://xcbl.cc/wp-content/uploads/2023/04/54x54.png" />
+          <img src="https://lbbai.com/wp-content/uploads/2023/04/54x54.png" />
         </div>
       </div>
 
