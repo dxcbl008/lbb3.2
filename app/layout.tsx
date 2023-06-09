@@ -7,7 +7,7 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "老北鼻AI智能助手-lbbai.com",
+  title: "老北鼻AI智能助手-lbb.ai",
   description: "您的私人ChatGPT聊天机器人。",
   viewport: {
     width: "device-width",
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "老北鼻AI智能助手-lbbai.com",
+    title: "老北鼻AI智能助手-lbb.ai",
     statusBarStyle: "default",
   },
 };
